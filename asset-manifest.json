@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kyowontour/static/css/main.2a1faf5d.css",
+    "main.js": "/kyowontour/static/js/main.38c63ec0.js",
+    "index.html": "/kyowontour/index.html",
+    "main.2a1faf5d.css.map": "/kyowontour/static/css/main.2a1faf5d.css.map",
+    "main.38c63ec0.js.map": "/kyowontour/static/js/main.38c63ec0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a1faf5d.css",
+    "static/js/main.38c63ec0.js"
+  ]
+}
