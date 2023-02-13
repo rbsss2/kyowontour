@@ -1,0 +1,46 @@
+.btnBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0 90px;
+  font-size: 0;
+  button {
+    text-decoration: none;
+    min-height: 50px;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: auto;
+    letter-spacing: -0.6px;
+    box-sizing: border-box;
+  }
+  .ranBtn {
+    border: 1px solid #ccc;
+    color: #1c1c1c;
+    background-color: #fff;
+    &:hover {
+      border: 1px solid #1c1c1c;
+    }
+    svg {
+      transform: rotate(60deg);
+      margin-left: 10px;
+    }
+  }
+  .cheBtn {
+    color: #fff;
+    background-color: #1c1c1c;
+    margin-left: 10px;
+    svg {
+      transform: rotate(90deg);
+      margin-left: 10px;
+    }
+  }
+}
