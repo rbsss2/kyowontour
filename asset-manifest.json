@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/kyowontour/static/css/main.2a1faf5d.css",
-    "main.js": "/kyowontour/static/js/main.38c63ec0.js",
+    "main.css": "/kyowontour/static/css/main.23d6d690.css",
+    "main.js": "/kyowontour/static/js/main.e664eb10.js",
+    "static/media/TourEasy_Trust_OTF.woff": "/kyowontour/static/media/TourEasy_Trust_OTF.b55f561865cb2b0d61ac.woff",
     "index.html": "/kyowontour/index.html",
-    "main.2a1faf5d.css.map": "/kyowontour/static/css/main.2a1faf5d.css.map",
-    "main.38c63ec0.js.map": "/kyowontour/static/js/main.38c63ec0.js.map"
+    "main.23d6d690.css.map": "/kyowontour/static/css/main.23d6d690.css.map",
+    "main.e664eb10.js.map": "/kyowontour/static/js/main.e664eb10.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a1faf5d.css",
-    "static/js/main.38c63ec0.js"
+    "static/css/main.23d6d690.css",
+    "static/js/main.e664eb10.js"
   ]
 }
