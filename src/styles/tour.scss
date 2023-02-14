@@ -21,6 +21,7 @@
     width: auto;
     letter-spacing: -0.6px;
     box-sizing: border-box;
+    cursor: pointer;
   }
   .ranBtn {
     border: 1px solid #ccc;
@@ -44,3 +45,45 @@
     }
   }
 }
+
+// list
+.listContainer {
+  padding-top: 132px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .listBox {
+    display: flex;
+    align-items: center;
+
+    em {
+      font-style: normal;
+      font-size: 34px;
+      color: #111;
+      letter-spacing: -1.7px;
+      line-height: 75px;
+    }
+    select {
+      border: none;
+      border-bottom: 2px solid #000;
+      font-family: "TourEasy";
+      text-align: center;
+      font-size: 34px;
+      font-weight: 300;
+      line-height: 20px;
+      color: rgb(17, 17, 17);
+      option {
+        font-size: 16px;
+        border: none;
+        padding: 0;
+        min-height: auto;
+        height: 32px;
+      }
+    }
+  }
+}
+
+//item
