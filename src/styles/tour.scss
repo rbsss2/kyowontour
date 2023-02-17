@@ -87,3 +87,51 @@
 }
 
 //item
+article {
+  max-width: 1900px;
+  margin: 50px auto;
+
+  .TourList {
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    overflow: hidden;
+    .prevBtn {
+      position: absolute;
+      background-color: orange;
+    }
+    .netxBtn {
+      position: relative;
+      background-color: yellow;
+    }
+
+    .TourItemList {
+      width: 35%;
+      max-width: 220px;
+      list-style: none;
+      overflow: hidden;
+
+      .TourImg {
+        width: 330px;
+        height: 310px;
+      }
+    }
+    .desBox {
+      font-style: normal;
+      margin-top: auto;
+      font-size: 20px;
+      line-height: 28px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+strong {
+  display: block;
+}

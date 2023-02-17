@@ -1,6 +1,6 @@
 import React from "react";
 
-function TourList(props) {
+function TourList() {
   // Tour 리스트 출력하기
 
   return (

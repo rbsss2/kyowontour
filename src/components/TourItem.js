@@ -1,42 +1,29 @@
-import { useState } from "react";
-import TourCarousel from "./TourCarousel";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
-
-function TourItem({ Tours }) {
+function TourItem({ item, slide }) {
   // TourData 불러오기
   // 3개 이상일 시 좌우 버튼 출력
+  const { imgUrl, title, des } = item;
 
-  const [slidePx, setSlidePx] = useState(0);
-
-  const toPrev = () => {
-    if (slidePx < 0) setSlidePx(slidePx + 1375);
-  };
-
-  const toNext = () => {
-    if (slidePx > -2750) setSlidePx(slidePx - 1375);
-  };
   return (
-    <>
-      <ul className="Touritem">
-        {/* {Tours.map((tour) => {
-          <TourCarousel slide={slidePx} key={tour.id} tour={tour} />;
-        })} */}
-      </ul>
-      <div
-        className="prevBtn"
-        onClick={toPrev}
-        style={{ display: slidePx === 0 ? "none" : "" }}
-      >
-        <BsArrowLeft />
+    <li
+      className="TourItemList"
+      style={{ transform: `translateX(${slide})`, transition: "0.5s ease" }}
+    >
+      {/* <li
+      className="carousel"
+      id={id}
+      style={{ transform: `translateX(${slide})`, transition: "0.5s ease" }} */}
+
+      <div className="TourImg">
+        <img src={imgUrl} alt={title} />
       </div>
-      <div
-        className="nextBtn"
-        onClick={toNext}
-        style={{ display: slidePx === -2750 ? "none" : "" }}
-      >
-        <BsArrowRight />
+      <div className="desBox">
+        <h3>
+          <strong>{title}</strong>
+          {des}
+        </h3>
+        <p>자세히 보기</p>
       </div>
-    </>
+    </li>
   );
 }
 
